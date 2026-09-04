@@ -1,0 +1,25 @@
+# Ts.ED CLI
+
+> Build CLI using Ts.ED framework.
+
+@tsed/cli-core, @tsed/cli-mcp, @tsed/cli-prompts, and @tsed/cli-tasks team up to build interactive CLIs with Ts.ED.
+
+## Table of Contents
+
+### Introduction
+
+- [Getting started](/introduction/getting-started.md)
+- [CLI configuration](/introduction/configuration.md): Configure network proxies and environment variables used by the Ts.ED CLI binaries.
+- [What's new in v7?](/introduction/whats-new-v7.md): Highlights of the Ts.ED CLI v7 release.
+- [API reference](/api.md): Api Reference of Ts.ED CLI
+
+### CLI
+
+- [CLI Overview](/guide/cli/overview.md): Understand how @tsed/cli-core, prompts, tasks, and MCP servers compose to build interactive developer tooling.
+- [Command configuration](/guide/cli/commands.md): Understand the @Command decorator and command() helper plus every shared option.
+- [Build interactive prompts](/guide/cli/prompts.md): Compose conversational flows with @tsed/cli-prompts and the Ts.ED DI container.
+- [Task orchestration](/guide/cli/tasks.md): Stream progress, logs, and cancellations with @tsed/cli-tasks.
+- [Templates](/guide/cli/templates.md): Author generator templates with defineTemplate(), schema-driven prompts, and render hooks.
+- [MCP servers with Ts.ED CLI](/guide/cli/mcp.md): Use @tsed/platform-mcp/cli to expose CLI features through the Model Context Protocol.
+
+

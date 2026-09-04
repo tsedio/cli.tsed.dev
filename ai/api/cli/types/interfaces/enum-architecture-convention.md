@@ -1,0 +1,39 @@
+---
+title: ArchitectureConvention from @tsed/cli
+description: api documentation of ArchitectureConvention from @tsed/cli
+meta:
+ - name: keywords
+   description: api typescript node.js documentation ArchitectureConvention enum
+---
+# ArchitectureConvention - @tsed/cli
+
+## Usage
+
+```typescript
+import { ArchitectureConvention } from "@tsed/cli";
+```
+
+> See [/packages/cli/src/interfaces/ArchitectureConvention.ts](https://github.com/tsedio/tsed-cli/blob/v7.7.0/packages/cli/src/interfaces/ArchitectureConvention.ts#L0-L0).
+
+## Overview
+
+```ts
+enum ArchitectureConvention {
+    DEFAULT = "arc_default",
+    FEATURE = "feature"
+}
+```
+
+<!-- Members -->
+
+## DEFAULT
+
+```ts
+DEFAULT = "arc_default",
+```
+
+## FEATURE
+
+```ts
+FEATURE = "feature"
+```

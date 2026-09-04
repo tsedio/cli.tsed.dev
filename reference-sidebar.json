@@ -1,0 +1,1118 @@
+[
+  {
+    "text": "Core",
+    "items": [
+      {
+        "text": "@tsed/cli",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "resolveViteBinFromPackageJsonPath",
+            "link": "/api/cli/types/bin/function-resolve-vite-bin-from-package-json-path"
+          },
+          {
+            "text": "resolveViteBin",
+            "link": "/api/cli/types/bin/function-resolve-vite-bin"
+          },
+          {
+            "text": "build",
+            "link": "/api/cli/types/bin/function-build"
+          },
+          {
+            "text": "resolveEntryModulePath",
+            "link": "/api/cli/types/bin/function-resolve-entry-module-path"
+          },
+          {
+            "text": "shouldIgnoreWatchFile",
+            "link": "/api/cli/types/bin/function-should-ignore-watch-file"
+          },
+          {
+            "text": "dev",
+            "link": "/api/cli/types/bin/function-dev"
+          },
+          {
+            "text": "PKG",
+            "link": "/api/cli/types/constants/const-pkg"
+          },
+          {
+            "text": "MINIMAL_TSED_VERSION",
+            "link": "/api/cli/types/constants/const-minimal-tsed-version"
+          },
+          {
+            "text": "DEFAULT_TSED_TAGS",
+            "link": "/api/cli/types/constants/const-default-tsed-tags"
+          },
+          {
+            "text": "IGNORE_VERSIONS",
+            "link": "/api/cli/types/constants/const-ignore-versions"
+          },
+          {
+            "text": "IGNORE_TAGS",
+            "link": "/api/cli/types/constants/const-ignore-tags"
+          },
+          {
+            "text": "TEMPLATE_DIR",
+            "link": "/api/cli/types/constants/const-template-dir"
+          },
+          {
+            "text": "render",
+            "link": "/api/cli/types/fn/function-render"
+          },
+          {
+            "text": "exec",
+            "link": "/api/cli/types/fn/function-exec"
+          },
+          {
+            "text": "AlterGenerateTasks",
+            "link": "/api/cli/types/interfaces/interface-alter-generate-tasks"
+          },
+          {
+            "text": "AlterInitSubTasks",
+            "link": "/api/cli/types/interfaces/interface-alter-init-sub-tasks"
+          },
+          {
+            "text": "AlterPackageJson",
+            "link": "/api/cli/types/interfaces/interface-alter-package-json"
+          },
+          {
+            "text": "AlterProjectFiles",
+            "link": "/api/cli/types/interfaces/interface-alter-project-files"
+          },
+          {
+            "text": "taskOutput",
+            "link": "/api/cli/types/fn/function-task-output"
+          },
+          {
+            "text": "AlterRenderFiles",
+            "link": "/api/cli/types/interfaces/interface-alter-render-files"
+          },
+          {
+            "text": "CliCommandHooks",
+            "link": "/api/cli/types/interfaces/interface-cli-command-hooks"
+          },
+          {
+            "text": "GenerateCmdContext",
+            "link": "/api/cli/types/interfaces/interface-generate-cmd-context"
+          },
+          {
+            "text": "ArchitectureConvention",
+            "link": "/api/cli/types/interfaces/enum-architecture-convention"
+          },
+          {
+            "text": "InitOptions",
+            "link": "/api/cli/types/interfaces/interface-init-options"
+          },
+          {
+            "text": "InitCmdContext",
+            "link": "/api/cli/types/interfaces/type-init-cmd-context"
+          },
+          {
+            "text": "RenderDataContext",
+            "link": "/api/cli/types/interfaces/interface-render-data-context"
+          },
+          {
+            "text": "PlatformType",
+            "link": "/api/cli/types/interfaces/enum-platform-type"
+          },
+          {
+            "text": "ProjectConvention",
+            "link": "/api/cli/types/interfaces/enum-project-convention"
+          },
+          {
+            "text": "RuntimeTypes",
+            "link": "/api/cli/types/interfaces/type-runtime-types"
+          },
+          {
+            "text": "RoutePipe",
+            "link": "/api/cli/types/pipes/class-route-pipe"
+          },
+          {
+            "text": "OutputFilePathPipe",
+            "link": "/api/cli/types/pipes/class-output-file-path-pipe"
+          },
+          {
+            "text": "SymbolNamePipe",
+            "link": "/api/cli/types/pipes/class-symbol-name-pipe"
+          },
+          {
+            "text": "initialize",
+            "link": "/api/cli/types/loaders/function-initialize"
+          },
+          {
+            "text": "resolve",
+            "link": "/api/cli/types/loaders/function-resolve"
+          },
+          {
+            "text": "PlatformsModule",
+            "link": "/api/cli/types/platforms/class-platforms-module"
+          },
+          {
+            "text": "RuntimeInitOptions",
+            "link": "/api/cli/types/runtimes/interface-runtime-init-options"
+          },
+          {
+            "text": "RuntimesModule",
+            "link": "/api/cli/types/runtimes/class-runtimes-module"
+          },
+          {
+            "text": "CliProjectService",
+            "link": "/api/cli/types/services/class-cli-project-service"
+          },
+          {
+            "text": "CliRunScript",
+            "link": "/api/cli/types/services/class-cli-run-script"
+          },
+          {
+            "text": "CliStats",
+            "link": "/api/cli/types/services/class-cli-stats"
+          },
+          {
+            "text": "TemplateRenderOptions",
+            "link": "/api/cli/types/services/type-template-render-options"
+          },
+          {
+            "text": "TemplateRenderReturnType",
+            "link": "/api/cli/types/services/type-template-render-return-type"
+          },
+          {
+            "text": "CliTemplatesService",
+            "link": "/api/cli/types/services/class-cli-templates-service"
+          },
+          {
+            "text": "ProjectClient",
+            "link": "/api/cli/types/services/class-project-client"
+          },
+          {
+            "text": "transformConfigFile",
+            "link": "/api/cli/types/processors/function-transform-config-file"
+          },
+          {
+            "text": "transformBinFile",
+            "link": "/api/cli/types/processors/function-transform-bin-file"
+          },
+          {
+            "text": "transformIndexFile",
+            "link": "/api/cli/types/processors/function-transform-index-file"
+          },
+          {
+            "text": "transformServerFile",
+            "link": "/api/cli/types/processors/function-transform-server-file"
+          },
+          {
+            "text": "DefineTemplateOptions",
+            "link": "/api/cli/types/utils/type-define-template-options"
+          },
+          {
+            "text": "defineTemplate",
+            "link": "/api/cli/types/utils/function-define-template"
+          },
+          {
+            "text": "resolveSchema",
+            "link": "/api/cli/types/utils/function-resolve-schema"
+          },
+          {
+            "text": "summarizeSchema",
+            "link": "/api/cli/types/utils/function-summarize-schema"
+          },
+          {
+            "text": "GenerateCmd",
+            "link": "/api/cli/types/commands/generate/class-generate-cmd"
+          },
+          {
+            "text": "AddCmdOptions",
+            "link": "/api/cli/types/commands/add/interface-add-cmd-options"
+          },
+          {
+            "text": "AddCmd",
+            "link": "/api/cli/types/commands/add/class-add-cmd"
+          },
+          {
+            "text": "InitCmd",
+            "link": "/api/cli/types/commands/init/class-init-cmd"
+          },
+          {
+            "text": "McpCommand",
+            "link": "/api/cli/types/commands/mcp/const-mcp-command"
+          },
+          {
+            "text": "InitOptionsCommand",
+            "link": "/api/cli/types/commands/init/const-init-options-command"
+          },
+          {
+            "text": "InitBasePlatform",
+            "link": "/api/cli/types/platforms/supports/interface-init-base-platform"
+          },
+          {
+            "text": "RunCmdContext",
+            "link": "/api/cli/types/commands/run/interface-run-cmd-context"
+          },
+          {
+            "text": "RunCmd",
+            "link": "/api/cli/types/commands/run/class-run-cmd"
+          },
+          {
+            "text": "CreateTemplateCmdContext",
+            "link": "/api/cli/types/commands/template/interface-create-template-cmd-context"
+          },
+          {
+            "text": "CreateTemplateCommand",
+            "link": "/api/cli/types/commands/template/class-create-template-command"
+          },
+          {
+            "text": "UpdateCmdContext",
+            "link": "/api/cli/types/commands/update/interface-update-cmd-context"
+          },
+          {
+            "text": "UpdateCmd",
+            "link": "/api/cli/types/commands/update/class-update-cmd"
+          },
+          {
+            "text": "InitExpressPlatform",
+            "link": "/api/cli/types/platforms/supports/class-init-express-platform"
+          },
+          {
+            "text": "InitFastifyPlatform",
+            "link": "/api/cli/types/platforms/supports/class-init-fastify-platform"
+          },
+          {
+            "text": "InitKoaPlatform",
+            "link": "/api/cli/types/platforms/supports/class-init-koa-platform"
+          },
+          {
+            "text": "BunRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-bun-runtime"
+          },
+          {
+            "text": "BaseRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-base-runtime"
+          },
+          {
+            "text": "BabelRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-babel-runtime"
+          },
+          {
+            "text": "BunViteRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-bun-vite-runtime"
+          },
+          {
+            "text": "ViteRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-vite-runtime"
+          },
+          {
+            "text": "NodeRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-node-runtime"
+          },
+          {
+            "text": "WebpackRuntime",
+            "link": "/api/cli/types/runtimes/supports/class-webpack-runtime"
+          },
+          {
+            "text": "addContextMethods",
+            "link": "/api/cli/types/services/mappers/service-add-context-methods"
+          },
+          {
+            "text": "anonymizePaths",
+            "link": "/api/cli/types/services/mappers/service-anonymize-paths"
+          },
+          {
+            "text": "mapDefaultTemplateOptions",
+            "link": "/api/cli/types/services/mappers/service-map-default-template-options"
+          },
+          {
+            "text": "mapGenerateContext",
+            "link": "/api/cli/types/commands/generate/mappers/function-map-generate-context"
+          },
+          {
+            "text": "Feature",
+            "link": "/api/cli/types/commands/init/config/interface-feature"
+          },
+          {
+            "text": "FeatureType",
+            "link": "/api/cli/types/commands/init/config/enum-feature-type"
+          },
+          {
+            "text": "FeaturesMap",
+            "link": "/api/cli/types/commands/init/config/const-features-map"
+          },
+          {
+            "text": "FeaturesPrompt",
+            "link": "/api/cli/types/commands/init/config/function-features-prompt"
+          },
+          {
+            "text": "InitPromptAnswers",
+            "link": "/api/cli/types/commands/init/interfaces/interface-init-prompt-answers"
+          },
+          {
+            "text": "InitSchema",
+            "link": "/api/cli/types/commands/init/config/function-init-schema"
+          },
+          {
+            "text": "mapUniqFeatures",
+            "link": "/api/cli/types/commands/init/mappers/function-map-uniq-features"
+          },
+          {
+            "text": "mapToContext",
+            "link": "/api/cli/types/commands/init/mappers/function-map-to-context"
+          },
+          {
+            "text": "getFeaturesPrompt",
+            "link": "/api/cli/types/commands/init/prompts/function-get-features-prompt"
+          },
+          {
+            "text": "isPlatform",
+            "link": "/api/cli/types/commands/init/utils/function-is-platform"
+          },
+          {
+            "text": "hasValue",
+            "link": "/api/cli/types/commands/init/utils/function-has-value"
+          },
+          {
+            "text": "hasFeature",
+            "link": "/api/cli/types/commands/init/utils/function-has-feature"
+          },
+          {
+            "text": "hasValuePremium",
+            "link": "/api/cli/types/commands/init/utils/function-has-value-premium"
+          },
+          {
+            "text": "InitMCPSchema",
+            "link": "/api/cli/types/commands/mcp/schema/function-init-mcp-schema"
+          },
+          {
+            "text": "ProjectPreferenceSchema",
+            "link": "/api/cli/types/commands/mcp/schema/const-project-preference-schema"
+          },
+          {
+            "text": "initOptionsResource",
+            "link": "/api/cli/types/commands/mcp/resources/const-init-options-resource"
+          },
+          {
+            "text": "projectInfoResource",
+            "link": "/api/cli/types/commands/mcp/resources/const-project-info-resource"
+          },
+          {
+            "text": "generateTool",
+            "link": "/api/cli/types/commands/mcp/tools/const-generate-tool"
+          },
+          {
+            "text": "serverInfoResource",
+            "link": "/api/cli/types/commands/mcp/resources/const-server-info-resource"
+          },
+          {
+            "text": "initProjectTool",
+            "link": "/api/cli/types/commands/mcp/tools/const-init-project-tool"
+          },
+          {
+            "text": "getTemplateTool",
+            "link": "/api/cli/types/commands/mcp/tools/const-get-template-tool"
+          },
+          {
+            "text": "listTemplatesTool",
+            "link": "/api/cli/types/commands/mcp/tools/const-list-templates-tool"
+          },
+          {
+            "text": "setWorkspaceTool",
+            "link": "/api/cli/types/commands/mcp/tools/const-set-workspace-tool"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-core",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliCore",
+            "link": "/api/cli-core/types/class-cli-core"
+          },
+          {
+            "text": "CliDefaultOptions",
+            "link": "/api/cli-core/types/interfaces/interface-cli-default-options"
+          },
+          {
+            "text": "command",
+            "link": "/api/cli-core/types/fn/function-command"
+          },
+          {
+            "text": "CliError",
+            "link": "/api/cli-core/types/domains/class-cli-error"
+          },
+          {
+            "text": "Command",
+            "link": "/api/cli-core/types/decorators/decorator-command"
+          },
+          {
+            "text": "CommandData",
+            "link": "/api/cli-core/types/interfaces/interface-command-data"
+          },
+          {
+            "text": "CommandMetadata",
+            "link": "/api/cli-core/types/interfaces/interface-command-metadata"
+          },
+          {
+            "text": "CommandProvider",
+            "link": "/api/cli-core/types/interfaces/interface-command-provider"
+          },
+          {
+            "text": "PackageJson",
+            "link": "/api/cli-core/types/interfaces/interface-package-json"
+          },
+          {
+            "text": "PackageInfo",
+            "link": "/api/cli-core/types/interfaces/interface-package-info"
+          },
+          {
+            "text": "CommandArg",
+            "link": "/api/cli-core/types/interfaces/interface-command-arg"
+          },
+          {
+            "text": "CommandOpts",
+            "link": "/api/cli-core/types/interfaces/interface-command-opts"
+          },
+          {
+            "text": "BaseCommandOptions",
+            "link": "/api/cli-core/types/interfaces/interface-base-command-options"
+          },
+          {
+            "text": "ClassCommandOptions",
+            "link": "/api/cli-core/types/interfaces/interface-class-command-options"
+          },
+          {
+            "text": "CommandOptions",
+            "link": "/api/cli-core/types/interfaces/type-command-options"
+          },
+          {
+            "text": "PackageManager",
+            "link": "/api/cli-core/types/interfaces/enum-package-manager"
+          },
+          {
+            "text": "ProjectPreferences",
+            "link": "/api/cli-core/types/interfaces/interface-project-preferences"
+          },
+          {
+            "text": "CliDatabases",
+            "link": "/api/cli-core/types/services/type-cli-databases"
+          },
+          {
+            "text": "CliDockerComposeYaml",
+            "link": "/api/cli-core/types/services/class-cli-docker-compose-yaml"
+          },
+          {
+            "text": "CliExeca",
+            "link": "/api/cli-core/types/services/class-cli-execa"
+          },
+          {
+            "text": "CliFs",
+            "link": "/api/cli-core/types/services/class-cli-fs"
+          },
+          {
+            "text": "CliHooks",
+            "link": "/api/cli-core/types/services/class-cli-hooks"
+          },
+          {
+            "text": "CliHttpClientOptions",
+            "link": "/api/cli-core/types/services/interface-cli-http-client-options"
+          },
+          {
+            "text": "CliHttpClient",
+            "link": "/api/cli-core/types/services/class-cli-http-client"
+          },
+          {
+            "text": "BaseLogClientOptions",
+            "link": "/api/cli-core/types/services/interface-base-log-client-options"
+          },
+          {
+            "text": "CliHttpLogClient",
+            "link": "/api/cli-core/types/services/class-cli-http-log-client"
+          },
+          {
+            "text": "CliLoadFile",
+            "link": "/api/cli-core/types/services/class-cli-load-file"
+          },
+          {
+            "text": "CliPackageJson",
+            "link": "/api/cli-core/types/services/type-cli-package-json"
+          },
+          {
+            "text": "cliPackageJson",
+            "link": "/api/cli-core/types/services/service-cli-package-json"
+          },
+          {
+            "text": "CliProxySettings",
+            "link": "/api/cli-core/types/services/interface-cli-proxy-settings"
+          },
+          {
+            "text": "CliProxyAgent",
+            "link": "/api/cli-core/types/services/class-cli-proxy-agent"
+          },
+          {
+            "text": "CliService",
+            "link": "/api/cli-core/types/services/class-cli-service"
+          },
+          {
+            "text": "CliPlugins",
+            "link": "/api/cli-core/types/services/class-cli-plugins"
+          },
+          {
+            "text": "CliYaml",
+            "link": "/api/cli-core/types/services/class-cli-yaml"
+          },
+          {
+            "text": "addSuffix",
+            "link": "/api/cli-core/types/services/service-add-suffix"
+          },
+          {
+            "text": "SCOPE_SEPARATOR",
+            "link": "/api/cli-core/types/services/const-scope-separator"
+          },
+          {
+            "text": "NpmRegistryClient",
+            "link": "/api/cli-core/types/services/class-npm-registry-client"
+          },
+          {
+            "text": "InstallOptions",
+            "link": "/api/cli-core/types/packageManagers/interface-install-options"
+          },
+          {
+            "text": "PackageManagersModule",
+            "link": "/api/cli-core/types/packageManagers/class-package-managers-module"
+          },
+          {
+            "text": "ProjectPackageJson",
+            "link": "/api/cli-core/types/services/class-project-package-json"
+          },
+          {
+            "text": "coerce",
+            "link": "/api/cli-core/types/utils/function-coerce"
+          },
+          {
+            "text": "getLogger",
+            "link": "/api/cli-core/types/utils/function-get-logger"
+          },
+          {
+            "text": "createInjector",
+            "link": "/api/cli-core/types/utils/function-create-injector"
+          },
+          {
+            "text": "getCommandMetadata",
+            "link": "/api/cli-core/types/utils/function-get-command-metadata"
+          },
+          {
+            "text": "getTemplateDirectory",
+            "link": "/api/cli-core/types/utils/function-get-template-directory"
+          },
+          {
+            "text": "isValidVersion",
+            "link": "/api/cli-core/types/utils/function-is-valid-version"
+          },
+          {
+            "text": "loadPlugins",
+            "link": "/api/cli-core/types/utils/function-load-plugins"
+          },
+          {
+            "text": "logToCurl",
+            "link": "/api/cli-core/types/utils/function-log-to-curl"
+          },
+          {
+            "text": "mapCommanderArgs",
+            "link": "/api/cli-core/types/utils/function-map-commander-args"
+          },
+          {
+            "text": "mapCommanderOptions",
+            "link": "/api/cli-core/types/utils/function-map-commander-options"
+          },
+          {
+            "text": "parseOption",
+            "link": "/api/cli-core/types/utils/function-parse-option"
+          },
+          {
+            "text": "validate",
+            "link": "/api/cli-core/types/utils/function-validate"
+          },
+          {
+            "text": "streamToObservable",
+            "link": "/api/cli-core/types/utils/const-stream-to-observable"
+          },
+          {
+            "text": "resolveConfiguration",
+            "link": "/api/cli-core/types/utils/function-resolve-configuration"
+          },
+          {
+            "text": "ManagerCmdOpts",
+            "link": "/api/cli-core/types/packageManagers/supports/type-manager-cmd-opts"
+          },
+          {
+            "text": "ManagerCmdSyncOpts",
+            "link": "/api/cli-core/types/packageManagers/supports/type-manager-cmd-sync-opts"
+          },
+          {
+            "text": "BaseManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-base-manager"
+          },
+          {
+            "text": "BunManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-bun-manager"
+          },
+          {
+            "text": "NpmManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-npm-manager"
+          },
+          {
+            "text": "PNpmManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-p-npm-manager"
+          },
+          {
+            "text": "YarnManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-yarn-manager"
+          },
+          {
+            "text": "YarnBerryManager",
+            "link": "/api/cli-core/types/packageManagers/supports/class-yarn-berry-manager"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-generate-http-client",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GenerateHttpClientCtx",
+            "link": "/api/cli-generate-http-client/types/commands/interface-generate-http-client-ctx"
+          },
+          {
+            "text": "GenerateHttpClientOpts",
+            "link": "/api/cli-generate-http-client/types/commands/interface-generate-http-client-opts"
+          },
+          {
+            "text": "GenerateHttpClientCmd",
+            "link": "/api/cli-generate-http-client/types/commands/class-generate-http-client-cmd"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-generate-swagger",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "GenerateSwaggerCtx",
+            "link": "/api/cli-generate-swagger/types/commands/interface-generate-swagger-ctx"
+          },
+          {
+            "text": "GenerateSwaggerCmd",
+            "link": "/api/cli-generate-swagger/types/commands/class-generate-swagger-cmd"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-mcp",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "MCP_SERVER",
+            "link": "/api/cli-mcp/types/services/const-mcp-server"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-eslint",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginEslintModule",
+            "link": "/api/cli-plugin-eslint/types/class-cli-plugin-eslint-module"
+          },
+          {
+            "text": "TEMPLATE_DIR",
+            "link": "/api/cli-plugin-eslint/types/utils/const-template-dir"
+          },
+          {
+            "text": "EslintInitHook",
+            "link": "/api/cli-plugin-eslint/types/hooks/class-eslint-init-hook"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-jest",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginJestModule",
+            "link": "/api/cli-plugin-jest/types/class-cli-plugin-jest-module"
+          },
+          {
+            "text": "JestInitHook",
+            "link": "/api/cli-plugin-jest/types/hooks/class-jest-init-hook"
+          },
+          {
+            "text": "JestGenerateHook",
+            "link": "/api/cli-plugin-jest/types/hooks/class-jest-generate-hook"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-mongoose",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginMongooseModule",
+            "link": "/api/cli-plugin-mongoose/types/class-cli-plugin-mongoose-module"
+          },
+          {
+            "text": "MongooseGenerateHook",
+            "link": "/api/cli-plugin-mongoose/types/hooks/class-mongoose-generate-hook"
+          },
+          {
+            "text": "MongooseInitHook",
+            "link": "/api/cli-plugin-mongoose/types/hooks/class-mongoose-init-hook"
+          },
+          {
+            "text": "CliMongoose",
+            "link": "/api/cli-plugin-mongoose/types/services/class-cli-mongoose"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-oidc-provider",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginOidcProviderModule",
+            "link": "/api/cli-plugin-oidc-provider/types/class-cli-plugin-oidc-provider-module"
+          },
+          {
+            "text": "TEMPLATE_DIR",
+            "link": "/api/cli-plugin-oidc-provider/types/utils/const-template-dir"
+          },
+          {
+            "text": "OidcProviderInitHook",
+            "link": "/api/cli-plugin-oidc-provider/types/hooks/class-oidc-provider-init-hook"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-oxc",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginOxcModule",
+            "link": "/api/cli-plugin-oxc/types/class-cli-plugin-oxc-module"
+          },
+          {
+            "text": "TEMPLATE_DIR",
+            "link": "/api/cli-plugin-oxc/types/utils/const-template-dir"
+          },
+          {
+            "text": "oxfmtTemplate",
+            "link": "/api/cli-plugin-oxc/types/templates/const-oxfmt-template"
+          },
+          {
+            "text": "OxcInitHook",
+            "link": "/api/cli-plugin-oxc/types/hooks/class-oxc-init-hook"
+          },
+          {
+            "text": "huskyGitignoreTemplate",
+            "link": "/api/cli-plugin-oxc/types/templates/const-husky-gitignore-template"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-passport",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginPassportModule",
+            "link": "/api/cli-plugin-passport/types/class-cli-plugin-passport-module"
+          },
+          {
+            "text": "PassportClient",
+            "link": "/api/cli-plugin-passport/types/services/class-passport-client"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-prisma",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginPrismaModule",
+            "link": "/api/cli-plugin-prisma/types/class-cli-plugin-prisma-module"
+          },
+          {
+            "text": "PrismaContext",
+            "link": "/api/cli-plugin-prisma/types/commands/interface-prisma-context"
+          },
+          {
+            "text": "PrismaCmd",
+            "link": "/api/cli-plugin-prisma/types/commands/class-prisma-cmd"
+          },
+          {
+            "text": "PrismaInitHook",
+            "link": "/api/cli-plugin-prisma/types/hooks/class-prisma-init-hook"
+          },
+          {
+            "text": "CliPrisma",
+            "link": "/api/cli-plugin-prisma/types/services/class-cli-prisma"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-typegraphql",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "TypeGraphqlModule",
+            "link": "/api/cli-plugin-typegraphql/types/class-type-graphql-module"
+          },
+          {
+            "text": "TypeGraphqlInitHook",
+            "link": "/api/cli-plugin-typegraphql/types/hooks/class-type-graphql-init-hook"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-typeorm",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginTypeORMModule",
+            "link": "/api/cli-plugin-typeorm/types/class-cli-plugin-type-orm-module"
+          },
+          {
+            "text": "TypeORMGenerateHook",
+            "link": "/api/cli-plugin-typeorm/types/hooks/class-type-orm-generate-hook"
+          },
+          {
+            "text": "TypeORMInitHook",
+            "link": "/api/cli-plugin-typeorm/types/hooks/class-type-orm-init-hook"
+          },
+          {
+            "text": "getTypeORMDatabases",
+            "link": "/api/cli-plugin-typeorm/types/utils/function-get-type-orm-databases"
+          },
+          {
+            "text": "getDatabase",
+            "link": "/api/cli-plugin-typeorm/types/utils/function-get-database"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-plugin-vitest",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "CliPluginVitestModule",
+            "link": "/api/cli-plugin-vitest/types/class-cli-plugin-vitest-module"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-prompts",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "PromptRunner",
+            "link": "/api/cli-prompts/types/class-prompt-runner"
+          },
+          {
+            "text": "PromptCancelledError",
+            "link": "/api/cli-prompts/types/errors/class-prompt-cancelled-error"
+          },
+          {
+            "text": "checkbox",
+            "link": "/api/cli-prompts/types/fn/function-checkbox"
+          },
+          {
+            "text": "confirm",
+            "link": "/api/cli-prompts/types/fn/function-confirm"
+          },
+          {
+            "text": "autocomplete",
+            "link": "/api/cli-prompts/types/fn/function-autocomplete"
+          },
+          {
+            "text": "input",
+            "link": "/api/cli-prompts/types/fn/function-input"
+          },
+          {
+            "text": "list",
+            "link": "/api/cli-prompts/types/fn/function-list"
+          },
+          {
+            "text": "password",
+            "link": "/api/cli-prompts/types/fn/function-password"
+          },
+          {
+            "text": "NormalizedPromptQuestion",
+            "link": "/api/cli-prompts/types/interfaces/type-normalized-prompt-question"
+          },
+          {
+            "text": "PromptType",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-type"
+          },
+          {
+            "text": "PromptChoice",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-choice"
+          },
+          {
+            "text": "PromptChoiceInput",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-choice-input"
+          },
+          {
+            "text": "PromptTransformer",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-transformer"
+          },
+          {
+            "text": "PromptFilter",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-filter"
+          },
+          {
+            "text": "PromptWhen",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-when"
+          },
+          {
+            "text": "PromptBaseQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-base-question"
+          },
+          {
+            "text": "PromptInputQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-input-question"
+          },
+          {
+            "text": "PromptPasswordQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-password-question"
+          },
+          {
+            "text": "PromptConfirmQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-confirm-question"
+          },
+          {
+            "text": "PromptListQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-list-question"
+          },
+          {
+            "text": "PromptCheckboxQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-checkbox-question"
+          },
+          {
+            "text": "PromptAutocompleteQuestion",
+            "link": "/api/cli-prompts/types/interfaces/interface-prompt-autocomplete-question"
+          },
+          {
+            "text": "PromptQuestion",
+            "link": "/api/cli-prompts/types/interfaces/type-prompt-question"
+          },
+          {
+            "text": "applyTransforms",
+            "link": "/api/cli-prompts/types/utils/function-apply-transforms"
+          },
+          {
+            "text": "NormalizedChoice",
+            "link": "/api/cli-prompts/types/utils/type-normalized-choice"
+          },
+          {
+            "text": "normalizeChoices",
+            "link": "/api/cli-prompts/types/utils/function-normalize-choices"
+          },
+          {
+            "text": "normalizeQuestion",
+            "link": "/api/cli-prompts/types/utils/function-normalize-question"
+          },
+          {
+            "text": "resolveListDefault",
+            "link": "/api/cli-prompts/types/utils/function-resolve-list-default"
+          },
+          {
+            "text": "ensureNotCancelled",
+            "link": "/api/cli-prompts/types/utils/function-ensure-not-cancelled"
+          },
+          {
+            "text": "shouldAsk",
+            "link": "/api/cli-prompts/types/utils/function-should-ask"
+          },
+          {
+            "text": "resolveMaybe",
+            "link": "/api/cli-prompts/types/utils/function-resolve-maybe"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-tasks",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "TasksOptions",
+            "link": "/api/cli-tasks/types/interface-tasks-options"
+          },
+          {
+            "text": "tasks",
+            "link": "/api/cli-tasks/types/function-tasks"
+          },
+          {
+            "text": "concat",
+            "link": "/api/cli-tasks/types/function-concat"
+          },
+          {
+            "text": "createTasksRunner",
+            "link": "/api/cli-tasks/types/const-create-tasks-runner"
+          },
+          {
+            "text": "createSubTasks",
+            "link": "/api/cli-tasks/types/const-create-sub-tasks"
+          },
+          {
+            "text": "taskLogger",
+            "link": "/api/cli-tasks/types/fn/function-task-logger"
+          },
+          {
+            "text": "TaskLoggerOptions",
+            "link": "/api/cli-tasks/types/domain/interface-task-logger-options"
+          },
+          {
+            "text": "TaskLogger",
+            "link": "/api/cli-tasks/types/domain/class-task-logger"
+          },
+          {
+            "text": "MaybePromise",
+            "link": "/api/cli-tasks/types/interfaces/type-maybe-promise"
+          },
+          {
+            "text": "Task",
+            "link": "/api/cli-tasks/types/interfaces/interface-task"
+          }
+        ]
+      },
+      {
+        "text": "@tsed/cli-testing",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "FakeCliExeca",
+            "link": "/api/cli-testing/types/class-fake-cli-execa"
+          },
+          {
+            "text": "CliPlatformTest",
+            "link": "/api/cli-testing/types/class-cli-platform-test"
+          },
+          {
+            "text": "FakeCliHttpClient",
+            "link": "/api/cli-testing/types/class-fake-cli-http-client"
+          },
+          {
+            "text": "FakeCliFs",
+            "link": "/api/cli-testing/types/class-fake-cli-fs"
+          },
+          {
+            "text": "normalizePath",
+            "link": "/api/cli-testing/types/function-normalize-path"
+          }
+        ]
+      },
+      {
+        "text": "cli-core"
+      }
+    ]
+  },
+  {
+    "text": "Plugins",
+    "items": []
+  }
+]
